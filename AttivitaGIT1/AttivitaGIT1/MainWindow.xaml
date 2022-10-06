@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="237*"/>
+            <RowDefinition Height="197*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="263*"/>
+            <ColumnDefinition Width="171*"/>
+            <ColumnDefinition Width="366*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Button" Margin="41,25,77,59" Click="Button_Click"/>
+        <Label x:Name="lblMedia" Grid.Column="1" Content="Label" HorizontalAlignment="Center" Height="76" Margin="0,60,0,0" VerticalAlignment="Top" Width="119"/>
 
     </Grid>
 </Window>

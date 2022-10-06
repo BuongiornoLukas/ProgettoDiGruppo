@@ -20,9 +20,30 @@ namespace AttivitaGIT1
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        int[] v = new int[10];
+
         public MainWindow()
         {
             InitializeComponent();
+
+            Random rnd = new Random();  
+
+            for(int i= 0; i < 10; i++)
+                v[i] = rnd.Next(0,100);
+        }
+        
+        //Button per il calcolo della media
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            double somma = 0;
+
+            for (int j = 0; j < 10; j++)
+                somma += v[j];
+
+            lblMedia.Content = somma / 10;
+
+            
         }
     }
 }
