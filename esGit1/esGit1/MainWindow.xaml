@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button x:Name="btnMedia_Click" Content="media" Margin="34,10,501,236"/>
+        <Button x:Name="btnMin_Click" Content="minimo" HorizontalAlignment="Left" Height="162" Margin="459,55,0,0" VerticalAlignment="Top" Width="261"/>
+        <Label x:Name="lblMedia" Content="Label" HorizontalAlignment="Left" Height="79" Margin="34,217,0,0" VerticalAlignment="Top" Width="180"/>
+        <Label x:Name="lblMin" Content="Label" HorizontalAlignment="Left" Height="67" Margin="459,229,0,0" VerticalAlignment="Top" Width="159"/>
 
     </Grid>
 </Window>
