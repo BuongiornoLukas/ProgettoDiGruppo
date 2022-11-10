@@ -1,5 +1,0 @@
-C:\Users\lukas.magalotti\source\repos\esGit1\esGit1\obj\Debug\net6.0-windows\esGit1.csproj.AssemblyReference.cache
-C:\Users\lukas.magalotti\source\repos\esGit1\esGit1\obj\Debug\net6.0-windows\MainWindow.g.cs
-C:\Users\lukas.magalotti\source\repos\esGit1\esGit1\obj\Debug\net6.0-windows\App.g.cs
-C:\Users\lukas.magalotti\source\repos\esGit1\esGit1\obj\Debug\net6.0-windows\esGit1_MarkupCompile.cache
-C:\Users\lukas.magalotti\source\repos\esGit1\esGit1\obj\Debug\net6.0-windows\esGit1_MarkupCompile.lref
